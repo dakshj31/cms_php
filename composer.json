@@ -1,0 +1,21 @@
+{
+    "name": "desktop/cms",
+    "require": {
+        "phpmailer/phpmailer": "5.2.28"
+    },
+    "autoload": {
+      "classmap": [
+        "classes"
+      ],
+
+        "psr-4": {
+            "Desktop\\Cms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daksh Joshi",
+            "email": "dakshjoshi1355@gmail.com"
+        }
+    ]
+}
